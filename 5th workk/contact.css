@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin: 3px;
+    background-color: #14c4ff4d;
+    background-attachment: fixed;
+}
+
+nav .logo{
+    padding: 10px;
+    font-size: 13px;
+    margin: 10px;
+}
+
+nav .logo:hover{
+    background-color: aliceblue;
+    color: rgb(75, 75, 6);
+    border-radius: 10px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+}
+
+.nav-links li{
+    margin: 10px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 5px;
+    transition: 0.1s ease-in;
+}
+
+.nav-links li a:hover{
+    color: blueviolet;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.form{
+    width: 400px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.form label{
+    margin-bottom: 20px;
+    display: block;
+}
+.form, .head1{
+    margin-bottom: 20px;
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+    background-color: #cccccc8c;
+    color: rgba(0, 0, 0, 0.774);
+    border-radius: 3px;
+    border: 0;
+
+}
+
+.footer{
+    background-color: #000000bd;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.logo1{
+    padding: 5px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.logo1:hover{
+    background-color: aliceblue;
+    color: #000;
+}
+.foot-links li{
+    margin-right: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    list-style: none;
+}
+.foot-links li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.foot-links li a:hover{
+    background-color: aliceblue;
+    color: #000;
+    padding: 5px;
+}
+.lasttext{
+    background-color: #250d0d;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+.para6{
+    margin: 10px;
+}

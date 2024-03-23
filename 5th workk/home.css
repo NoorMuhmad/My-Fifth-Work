@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin: 3px;
+    background-color: #14c4ff4d;
+}
+
+nav .logo{
+    padding: 10px;
+    font-size: 13px;
+    margin: 10px;
+}
+
+nav .logo:hover{
+    background-color: aliceblue;
+    color: rgb(75, 75, 6);
+    border-radius: 10px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+}
+
+.nav-links li{
+    margin: 10px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 5px;
+    transition: 0.1s ease-in;
+}
+
+.nav-links li a:hover{
+    color: blueviolet;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.hero_section{
+    position: relative;
+}
+.video1{
+    width: 100%;
+    height: auto;
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.a1{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 95px;
+}
+.a1:hover{
+    background-color: #12b1a9a1;
+}
+
+.head1h2{
+    color: aliceblue;   
+    font-size: 24px;
+    margin: 20px;
+}
+
+.second_section{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+}
+
+.head2{
+    margin: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.gallery{
+
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.img1{
+    width: 200px;
+    height: 250px;
+    padding: 3px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.img1:hover{
+    padding: 5px;
+}
+.para1{
+    line-height: 22px;
+    font-size: 18px;
+}
+.head2h3{
+    margin: 10px 0;
+}
+
+.news-section {
+    padding: 20px;
+    margin: 0 20px;
+    overflow: hidden; /* Clearfix for floated elements */
+}
+
+.news-heading {
+    font-size: 24px;
+    /* margin-bottom: 10px; */
+}
+
+.news-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.news-text {
+    flex: 1;
+    font-size: 19px;
+    line-height: 28px;
+    margin-right: 20px; 
+}
+
+.news-image img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+button{
+    border: none;
+    margin-top: 25px;
+    background-color: rgb(25, 66, 66);
+    font-size: 17px;
+    color: aliceblue;
+    padding: 10px;
+    cursor: pointer;
+}
+.footer{
+    background-color: #000000bd;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.logo1{
+    padding: 5px;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.logo1:hover{
+    background-color: aliceblue;
+    color: #000;
+}
+.foot-links li{
+    margin-right: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    list-style: none;
+}
+.foot-links li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+.foot-links li a:hover{
+    background-color: aliceblue;
+    color: #000;
+    padding: 5px;
+}
+.lasttext{
+    background-color: #250d0d;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+.para5{
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+    .hero_section{
+        width: auto;
+    }
+    .btn, .a1{
+        margin: 10px 0;
+        text-align: center;
+    }
+    .gallery{
+
+    }
+    .para1{
+        font-size: 20px;
+    }
+    
+        .news-content {
+            flex-direction: column-reverse; 
+        }
+    
+        .news-heading {
+            font-size: 20px;
+        }
+    
+        .news-image {
+            margin-bottom: 0; /* Remove margin for image */
+        }
+    
+        .btn1 {
+            margin-top: 20px; /* Add margin to the button */
+        }
+        
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .foot-links {
+        margin-top: 10px;
+    }
+
+    .foot-links li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .lasttext {
+        margin-top: 20px;
+    }
+}
